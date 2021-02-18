@@ -1,0 +1,26 @@
+body {
+  background-color: bisque;
+}
+
+ul {
+  display: flexbox;
+  justify-content: center;
+}
+
+img {
+  border: cadetblue solid 5px;
+  height: 50%;
+  width: 50%;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
